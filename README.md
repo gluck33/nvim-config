@@ -1,3 +1,4 @@
+README.md
 apt install nvim
 sudo snap install rust-analyzer --beta
 sudo snap install pyright --classic
