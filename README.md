@@ -3,6 +3,9 @@ apt install nvim
 sudo snap install rust-analyzer --beta
 sudo snap install pyright --classic
 
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
 ~/.config/nvim/init.vim file:
 
 set mouse=a  " enable mouse
