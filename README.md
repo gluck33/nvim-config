@@ -1,10 +1,12 @@
 README.md
-apt install nvim
-sudo snap install rust-analyzer --beta
-sudo snap install pyright --classic
+#apt install nvim
+#sudo snap install rust-analyzer --beta
+#sudo snap install pyright --classic
 
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+#sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+#pip3 install pyright
 
 ~/.config/nvim/init.vim file:
 
